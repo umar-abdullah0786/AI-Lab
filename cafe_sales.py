@@ -21,3 +21,4 @@ print("Best day index:", np.argmax(revenue_per_day))
 
 # Coffee (column index 1), last two days
 print("Coffee, last two days:", units[-2:, 1])
+print("Total weekly revenue:", revenue.sum())
